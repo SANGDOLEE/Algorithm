@@ -1,7 +1,6 @@
 import java.util.Scanner;
 class Solution {
     public int solution(int[] numbers) {
-        int answer = 0;
         int max=numbers[0]*numbers[1];
         if(numbers.length==2)
             return max;
@@ -12,7 +11,6 @@ class Solution {
                 }
             }
         }
-        answer=max;
-        return answer;
+        return max;
     }
 }
