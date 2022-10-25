@@ -1,3 +1,4 @@
+// 1. char to int : 아스키 이용
 class Solution {
     public int solution(String my_string) {
         int answer = 0;
@@ -16,7 +17,7 @@ class Solution {
     }
 }
 
-
+// 2. String to int 
 class Solution {
     public int solution(String my_string) {
         int answer = 0;
