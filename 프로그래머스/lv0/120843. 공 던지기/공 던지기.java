@@ -1,6 +1,6 @@
 public class Solution {
     public int solution(int[] numbers, int k) {
-        int answer = 0;
+        int answer = 1;
         int cnt=numbers.length;
         for(int i=0; i<k-1; i++){
             answer+=2;
@@ -10,6 +10,6 @@ public class Solution {
                 answer=1;
             }
         }
-        return answer+1;
+        return answer;
     }
 }
