@@ -1,32 +1,28 @@
 class Solution {
-    public int solution(int[] array) {
-               int answer=0;
-       int arr_max=0;
-
-       for(int i=0; i<array.length; i++){
-           if(array[i]>arr_max){
-               arr_max=array[i]; // arr_max=4;
-           }
-       }
-       int[] index=new int[arr_max+1]; // index = 5칸
-        int max=0;
-
-        int n=0;
-        for(int i=0; i<array.length; i++){
-            index[array[i]]++;
+ public int solution(int[] arr){
+        int answer=0;
+        int arr_max=0;
+        for(int i=0; i<arr.length; i++){
+            if(arr[i]>arr_max)
+                arr_max=arr[i];
         }
+        int[] index=new int[arr_max+1];
+        for(int i=0; i<arr.length; i++){
+            index[arr[i]]++;
+        }
+        int max=0; // 최빈 값
         for(int i=0; i<index.length; i++){
-            if(index[i]>max){
-                max=index[i];
+            if(index[i]>max) {
+                max = index[i];
                 answer=i;
             }
         }
+        int cnt=0;
         for(int i=0; i<index.length; i++){
-            if(index[i]==max){
-                n++;
-            }
+            if(index[i]==max)
+                cnt++;
         }
-        if(n>1) answer=-1;
+        if(cnt>=2) answer=-1;
         return answer;
     }
 }
