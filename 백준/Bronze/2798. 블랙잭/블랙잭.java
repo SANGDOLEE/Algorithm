@@ -19,6 +19,7 @@ class Main {
                     sum=arr[i]+arr[j]+arr[k];
                     if(min<sum&&sum<=m){
                         min=sum;
+                        if(sum==m) break;
                     }
                 }
             }
