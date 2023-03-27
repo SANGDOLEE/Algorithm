@@ -9,14 +9,11 @@ class Solution
         Arrays.sort(A);
         Arrays.sort(B);
 
-        int a = 0;
-        int b = B.length-1;
-        int i = 0;
-        while(i < A.length){
-            answer += A[a]*B[b];
-            a++;
-            b--;
-            i++;
+        int j = B.length-1;
+
+        for(int i=0; i<A.length; i++){
+            answer += A[i]*B[j];
+            j--;
         }
 
         return answer;
