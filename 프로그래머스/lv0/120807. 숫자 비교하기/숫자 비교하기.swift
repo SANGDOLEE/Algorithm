@@ -1,11 +1,5 @@
 import Foundation
 
 func solution(_ num1:Int, _ num2:Int) -> Int {
-    var answer=0
-    if num1==num2{
-        answer = 1
-    } else{
-        answer = -1
-    }
-    return answer
+    return num1 == num2 ? 1 : -1
 }
