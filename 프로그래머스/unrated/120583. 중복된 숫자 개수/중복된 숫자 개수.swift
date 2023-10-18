@@ -1,10 +1,18 @@
 import Foundation
+
 func solution(_ array:[Int], _ n:Int) -> Int {
-    var k = 0
-    for i in array{
+    
+    var result = 0
+    
+    for i in array {
         if i == n {
-            k += 1
+            result += 1
+        }
+        else {
+            continue
         }
     }
-    return k
+    
+    
+    return result
 }
