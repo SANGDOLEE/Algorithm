@@ -2,9 +2,8 @@ import Foundation
 
 func solution(_ numbers:[Int]) -> Int {
     
-    var array:[Int] = numbers
+    var array = numbers.sorted()
     
-    array.sort()
-    array.reverse()
-    return array[0]*array[1]
+    var result = array[array.count - 1] * array[array.count - 2]
+    return result
 }
