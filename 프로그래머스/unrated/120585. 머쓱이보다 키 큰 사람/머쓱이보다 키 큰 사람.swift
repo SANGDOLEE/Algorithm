@@ -1,12 +1,15 @@
 import Foundation
 
 func solution(_ array:[Int], _ height:Int) -> Int {
-    var answer = 0
+    
+    var result = 0
     
     for i in array {
-        if i>height {
-            answer += 1
+        if height < i {
+            result += 1
+        } else {
+            continue
         }
     }
-    return answer
+    return result
 }
