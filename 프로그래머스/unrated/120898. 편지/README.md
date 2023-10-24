@@ -1,10 +1,10 @@
 # [level unrated] 편지 - 120898 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120898?language=swift) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120898) 
 
 ### 성능 요약
 
-메모리: 16.2 MB, 시간: 0.01 ms
+메모리: 16.3 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 2일 15:23:50
+2023년 10월 2일 16:10:17
 
 ### 문제 설명
 
