@@ -1,14 +1,22 @@
 import Foundation
 
 func solution(_ num_list:[Int]) -> [Int] {
-    var answer:[Int] = [0,0]
+    
+    var array: [Int] = []
+    
+    var x = 0
+    var y = 0
     
     for i in num_list {
-        if i%2 == 0 {
-            answer[0] = answer[0] + 1
+        if i%2==0 {
+            x += 1
         } else {
-            answer[1] = answer[1] + 1
+            y+=1
+            
         }
     }
-    return answer
+    array.append(x)
+    array.append(y)
+    
+    return array
 }
