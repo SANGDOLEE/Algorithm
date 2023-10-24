@@ -1,11 +1,11 @@
 import Foundation
 
 func solution(_ strlist:[String]) -> [Int] {
-     
-    var answer:[Int] = []
+    
+    var array : [Int] = []
     
     for i in strlist {
-        answer.append(i.count)
+        array.append(i.count)
     }
-    return answer
+    return array
 }
