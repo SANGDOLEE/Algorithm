@@ -1,10 +1,10 @@
 # [level unrated] 문자열 뒤집기 - 120822 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120822?language=swift) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120822) 
 
 ### 성능 요약
 
-메모리: 16.1 MB, 시간: 0.03 ms
+메모리: 16.1 MB, 시간: 0.68 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 2일 15:45:41
+2023년 10월 5일 14:44:14
 
 ### 문제 설명
 

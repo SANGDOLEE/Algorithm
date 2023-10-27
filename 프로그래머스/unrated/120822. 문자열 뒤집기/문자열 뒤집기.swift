@@ -1,5 +1,10 @@
 import Foundation
 
 func solution(_ my_string:String) -> String {
-    return String(my_string.reversed())
+    
+    var answer:String = ""
+    
+    answer = String(my_string.reversed())
+    
+    return answer
 }
