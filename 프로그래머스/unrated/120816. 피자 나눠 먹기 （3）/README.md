@@ -1,6 +1,6 @@
 # [level unrated] 피자 나눠 먹기 (3) - 120816 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120816?language=swift) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120816) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 3일 18:19:20
+2023년 11월 4일 15:5:39
 
 ### 문제 설명
 
