@@ -10,13 +10,7 @@ func solution(_ arr1:[Int], _ arr2:[Int]) -> Int {
         var sum_arr1 = arr1.reduce(0,+)
         var sum_arr2 = arr2.reduce(0,+)
         
-        if sum_arr1 > sum_arr2 {
-            result = 1
-        } else if sum_arr1 < sum_arr2 {
-            result = -1
-        } else {
-            result = 0
-        }
+        result = sum_arr1 == sum_arr2 ? 0 : sum_arr1 > sum_arr2 ? 1 : -1
     }
     return result
 }
