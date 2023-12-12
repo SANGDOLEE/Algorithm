@@ -12,7 +12,7 @@ class Solution {
         Iterator<Integer> it = set.iterator();
         int index = 0;
         while(it.hasNext()){
-            answer[index] = (int)it.next();
+            answer[index] = it.next();
             index++;
         }
         return answer;
