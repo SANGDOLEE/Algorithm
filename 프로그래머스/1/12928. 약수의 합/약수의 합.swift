@@ -1,11 +1,15 @@
 func solution(_ n:Int) -> Int {
-   var sum = 0
+    var count = 0
     
-    for i in 1..<n+1 {
-        if n % i == 0 {
-            sum += i
+    if n == 0 {
+        return 0
+    }
+    
+    for i in 1...n {
+        if n%i == 0 {
+            count += i
         }
     }
     
-    return sum
+    return count
 }
